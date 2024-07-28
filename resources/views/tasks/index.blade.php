@@ -16,7 +16,7 @@
         total task={{count($task)}}
     </p>
    </div>
-    <div class="container mx-auto">
+    <!-- <div class="container mx-auto">
     <div class="mt-10">
     @foreach($task as $task)
     <p>{{$task->title}}</p>
@@ -25,6 +25,19 @@
     <p class="text-red-400">{{$task->status}}</p>
     @endforeach
     </div> 
+    </div> -->
+    <div class="mt-5 rounded-lg border bg-card text-card-foreground shadow-sm" >
+        <div class="p-6 space-y-3">
+            <div>
+                <h3 class="text-lg font-medium">Finish Design mockup</h3>
+                <p class="text-muted-foreground">Amet amet sed sanctus kasd sed consetetur. Amet eirmod et et magna et. Dolor sit dolor at labore et. Vero sanctus sit rebum lorem consetetur dolor at et, sadipscing sit ut ea lorem accusam erat. Sit ea diam et dolor.</p>
+            </div>
+            <div class="flex items-center justify-between">
+                <div class="text-sm text-muted-foreground">Due:May 15, 2023</div>
+            </div>
+
+        </div>
+
     </div>
     <script>
         function filterStatus(){
