@@ -30,7 +30,7 @@ class TasksController extends Controller
         })->get();
 
          
-        return view('tasks.index',compact('task','status'));
+        return view('tasks.index',compact('task'));
     }
 
     /**
